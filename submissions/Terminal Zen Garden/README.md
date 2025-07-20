@@ -59,8 +59,8 @@ pip install textual rich
 
 #### Option A: Download as ZIP
 
-1. Visit the GitHub repo (replace this with your actual URL):  
-   https://github.com/yourusername/terminal-zengarden
+1. Visit the GitHub repo:
+   [https://github.com/Rainier-PS/Terminal-Zen-Garden](https://github.com/Rainier-PS/Terminal-Zen-Garden)
 
 2. Click **"Code" > "Download ZIP"**
 
