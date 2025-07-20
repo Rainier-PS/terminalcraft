@@ -20,73 +20,116 @@ Move your rake, place stones, and load different garden templates — all using 
 ![Zen Garden](image/Pebble%20%26%20Sakura%20Path.png)
 
 ---
-## Why I make this project?
 
-I created Terminal Zen Garden to introduce more people to the calming practice of Zen gardening. This terminal app offers a similar experience to a physical Zen Garden, but without the need for any tools or materials except for a device.
+## Why I Make This Project
+
+I created Terminal Zen Garden to introduce more people to the calming practice of Zen gardening. This terminal app offers a similar experience to a physical Zen garden, but without the need for any tools or materials — just your device and a keyboard.
 
 ---
-## How to Run
 
-Follow these steps in your terminal:
+## How to Run (Beginner Friendly)
 
-### 1. Install Python 3.8 or higher
+Anyone can use this — follow the steps carefully!
 
-Download and install Python from the official site:  
-https://www.python.org/downloads/
+---
 
-Make sure `python` and `pip` are available in your terminal:
+### Step 1: Install Python 3.8 or Higher
+
+1. Download Python from the official site:  
+   https://www.python.org/downloads/
+
+2. During installation, **make sure to check the box**:
+   ```
+   ✅ Add Python to PATH
+   ```
+
+3. After installation, open a terminal and verify:
 
 ```bash
 python --version
 pip --version
 ```
 
-If not, restart your terminal or add Python to PATH during installation.
+---
+
+### Step 2: Download the Project
+
+#### Option A — ZIP Download (Easy for Beginners)
+
+1. Go to the GitHub repository:  
+   https://github.com/Rainier-PS/Terminal-Zen-Garden
+
+2. Click the green **[Code]** button → select **Download ZIP**
+
+3. Extract the ZIP file
+
+4. Open the extracted folder, then **go into** the `garden` subfolder  
+   (you should see a file named `main.py` inside)
 
 ---
 
-### 2. Install Required Python Packages
+### Step 3: Open Terminal in the Garden Folder
 
-Open your terminal and run:
+#### On Windows:
+
+1. Inside the `garden` folder, **click the address bar**  
+2. Type `cmd` and press Enter — it opens Command Prompt in that folder.
+
+#### On macOS or Linux:
+
+Open your terminal and navigate manually, for example:
 
 ```bash
-pip install textual rich
+cd ~/Downloads/Terminal-Zen-Garden-main/garden
 ```
+
+(Change the path if you saved it elsewhere.)
 
 ---
 
-### 3. Download the Project
+### Step 4: (Optional) Set Up Virtual Environment
 
-#### Option A: Download as ZIP
-
-1. Visit the GitHub repo:
-   [https://github.com/Rainier-PS/Terminal-Zen-Garden](https://github.com/Rainier-PS/Terminal-Zen-Garden)
-
-2. Click **"Code" > "Download ZIP"**
-
-3. Extract the ZIP, then open the folder in your terminal:
+Recommended to keep things clean.
 
 ```bash
-cd path/to/terminal-zengarden/garden
+python -m venv venv
 ```
 
-#### Option B: Clone via Git (Recommended)
+Activate it:
 
-```bash
-git clone https://github.com/Rainier-PS/terminal-zengarden.git
-cd terminal-zengarden/garden
-```
+- **On Windows**:
+  ```bash
+  venv\Scripts\activate
+  ```
+
+- **On macOS/Linux**:
+  ```bash
+  source venv/bin/activate
+  ```
 
 ---
 
-### 4. Run the Zen Garden
+### Step 5: Install Required Packages
+
+You only need one:
+
+```bash
+pip install textual
+```
+
+(If you get errors, make sure you're online and Python is installed properly.)
+
+---
+
+### Step 6: Run the Program
+
+Finally, launch the Zen Garden:
 
 ```bash
 python main.py
 ```
 
-✅ That’s it!  
-Enjoy your peaceful terminal zen experience!
+You’ll see a fullscreen terminal interface — you're now inside the garden!
 
 ---
 
@@ -118,27 +161,27 @@ Enjoy your peaceful terminal zen experience!
 ## Features
 
 - Multiple themed templates: sand, stone paths, bonsai, temples, bridges, and more
-- Interactive garden drawing with keyboard
+- Interactive ASCII garden with keyboard controls
 - Save/load and undo/redo support
-- Built-in help panel and visual legend
-- ASCII bonsai intro art
+- Visual help panel
+- Peaceful fullscreen terminal experience
 - Beginner-friendly code for remixing
 
 ---
 
 ## Why Try It?
 
-Zen gardens are a relaxing blend of art and minimalism.  
-This project brings that feeling to your terminal. Whether you want to pause, play, or just explore some creativity—Terminal Zen Garden is your space.
+Zen gardens blend calm, focus, and creativity.  
+Terminal Zen Garden brings that same joy into your digital workspace — a quiet space to reset, reflect, and express.
 
 ---
 
 ## Remix & Share
 
-- Add your own templates or tile types
-- Share screenshots or fork the project
-- Clean codebase, ideal for beginners
+- Fork the repo and add your own tile types or maps
+- Share screenshots of your garden designs
+- Pull requests and contributions welcome!
 
 ---
 
-Created by Rainier-PS  
+Created by **Rainier-PS**
